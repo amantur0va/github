@@ -1,3 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#hero .hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero .hero--block h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343D;
+}
+#hero .hero--block p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343D;
+  padding: 20px 0;
+}
+#hero .hero--block__btn {
+  display: flex;
+  align-items: center;
+}
+#hero .hero--block__btn button {
+  background: #02897A;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 15px 30px;
+  transition: 0.4s;
+  color: white;
+}
+#hero .hero--block__btn button:hover {
+  background: transparent;
+  transform: scale(1, 1);
+  color: blue;
+  border: 1px solid black;
+}
+#hero .hero--block__btn--icon {
+  padding: 0 20px;
+}
+#hero .hero--block__btn--icon a {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #02897A;
+  text-decoration-line: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
